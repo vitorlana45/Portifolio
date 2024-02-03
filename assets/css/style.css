@@ -440,39 +440,31 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+#skills {
+  
+ justify-content: center;
 }
 
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
+#containerImgs img{
+  border: none;
+ 
+  margin: auto;
+ 
+  
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+#containerImgs {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(19, 19, 19, 0.7);
+ 
 }
 
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-  height: 10px;
+#titleSkills{
+  font-family: lato,sans-serif;
+  font-size: 70px;
 }
 
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #149ddd;
-}
+
 
 /*--------------------------------------------------------------
 # Resume
