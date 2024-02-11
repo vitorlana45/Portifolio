@@ -438,7 +438,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 #skills {
   
@@ -447,21 +447,24 @@ section {
 
 #containerImgs img{
   border: none;
- 
   margin: auto;
  
-  
 }
+
+
 
 #containerImgs {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 10px rgba(19, 19, 19, 0.7);
+  box-shadow: 0 0 10px rgb(1, 82, 245);
+  border-radius: 15px;
+
  
 }
 
 #titleSkills{
   font-family: lato,sans-serif;
   font-size: 70px;
+  text-shadow: 2px 2px 1px #0040ff;
 }
 
 
@@ -845,8 +848,9 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
- 
+  
 }
+
 
 .contact .info {
   padding: 30px;
